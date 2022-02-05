@@ -1,0 +1,13 @@
+{
+  "name": "pnpm-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm test --filter *",
+    "test:apps": "pnpm test --filter ./apps",
+    "test:libs": "pnpm test --filter ./libs"
+  },
+  "author": "",
+  "license": "ISC"
+}

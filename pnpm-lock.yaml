@@ -1,0 +1,17 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  apps/server:
+    specifiers:
+      ex: workspace:^1.0.0
+      quiabo: workspace:^1.0.0
+    dependencies:
+      ex: link:../../libs/ex
+      quiabo: link:../../libs/quiabo
+
+  libs/ex:
+    specifiers: {}
