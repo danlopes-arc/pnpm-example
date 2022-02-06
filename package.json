@@ -9,5 +9,8 @@
     "test:libs": "pnpm test --filter ./libs"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "paths": {
+      "server": [
+        "./apps/server/src"
+      ],
+      "client": [
+        "./apps/client/src"
+      ],
+      "quiabo": [
+        "./libs/quiabo/src"
+      ],
+      "ex": [
+        "./libs/ex/src"
+      ],
+    }
+  }
+}

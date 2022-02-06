@@ -2,8 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "pnpm compile --filter ./",
+    "compile": "tsc -b tsconfig.build.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

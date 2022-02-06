@@ -2,8 +2,10 @@
   "name": "quiabo",
   "version": "1.0.0",
   "description": "",
-  "main": "quiabo.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "pnpm compile --filter ./",
+    "compile": "tsc -p tsconfig.build.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
